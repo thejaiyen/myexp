@@ -1,8 +1,10 @@
 <h2>to use git</h2>
 
-//for upload to git
+//for update before upload
 git fetch
+git pull
 
+//for upload to git
 git add .
 git commit -m "comment"
 git push
