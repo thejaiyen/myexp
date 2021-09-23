@@ -16,6 +16,13 @@ a = "1242"
 for i in a:
     print(i)
 
+#for one line
+print("-"*10,"for one line","-"*10)
+# expression for item in iterable if condition == True
+xx = [x for x in range(10) if x < 5]
+print(xx)
+
+
 ## While 
 def runwhile(i=0):
     while i < 6:
