@@ -8,7 +8,11 @@
 # a and b
 # a or b
 # a in b
+# a not in b
 # a in []
+# a is b
+# a is not b
+
 
 print ("abc" in "xabcy")
 print ("abc" in ["abcs","adasd","acs"])

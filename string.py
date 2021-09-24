@@ -1,8 +1,11 @@
-a = " Hello form the other side"
 
+##################################################
 #array in string ,call Slicing
 # a[start:stop:step]
 print("-"*10,"Slicing","-"*10)
+
+a = " Hello form the other side"
+
 o00 = a[1]
 print( "o00 is",o00 )
 
@@ -15,8 +18,12 @@ print( "o02 is",o02 )
 o03 = a[::4]
 print( "o03 is",o03 )
 
+##################################################
 ##Modify
 print("-"*10,"Modify","-"*10)
+
+a = " Hello form the other side"
+
 #Split 
 o1 = a.split(" ")
 print ("o1 is",o1)
@@ -27,20 +34,28 @@ print ("o2 is",o2)
 o3 = a.replace("Hello", "Hi")
 print ("o3 is",o3)
 
+##################################################
 ##concatenate, or combine
 print("-"*10,"combine","-"*10)
+
 b = "Hi"
 c = "bob"
+
 print("b+c is",b+c) 
 
+##################################################
 ##Format
 print("-"*10,"Format","-"*10)
+
+b = "Hi"
+c = "bob"
 #1
 print("#1 say {} , {}".format(b,c))
 #2
 print("#2 {1} say {0}".format(b,c))
+#3
+print(f"#3 {b} say {c}")
 
-print(a)
 ##Escape Characters
 # \'	Single Quote
 # \\	Backslash
