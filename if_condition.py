@@ -19,9 +19,9 @@ print ('"abc" in "xabcy" is ', "abc" in "xabcy")
 print ('"abc" in ["abcs","adasd","acs"] is',"abc" in ["abcs","adasd","acs"])
 
 ####################
-## IF
-#1 
-print("-"*10,"IF #1","-"*10)
+## IF 
+#1 if elif else
+print("-"*10,"#1 if elif else","-"*10)
 
 if False:
     print("#1")
@@ -38,6 +38,14 @@ print ('High' if True else 'Low')
 
 ##########
 #2.2
+print("-"*10,"IF #2.2","-"*10)
 x = 10
 result = 'High' if x>10  else 'Low'
 print(result)
+
+##########
+#2.3 if one line
+print("-"*10,"IF #2.2","-"*10)
+
+print (" print () if True else None") if True else None
+print (" print () if False else None") if False else None
