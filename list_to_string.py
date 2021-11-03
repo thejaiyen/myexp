@@ -15,9 +15,11 @@ def loop2str(come):
     except Exception as e:
         out = (f"{type(e).__name__} : {e} at line {e.__traceback__.tb_lineno}")
     return out 
-
+print("a is",a)
 print(loop2str(a))
+print("b is",b)
 print(loop2str(b))
+print("c is",c)
 print(loop2str(c))
 
 ####################
@@ -30,7 +32,9 @@ def join2str(come):
     except Exception as e:
         out = (f"{type(e).__name__} : {e} at line {e.__traceback__.tb_lineno}")
     return out 
-
-print(loop2str(a))
-print(loop2str(b))
-print(loop2str(c))
+print("a is",a)
+print("join is",loop2str(a))
+print("b is",b)
+print("join is",loop2str(b))
+print("c is",c)
+print("join is",loop2str(c))
