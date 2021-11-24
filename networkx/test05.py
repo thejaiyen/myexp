@@ -3,7 +3,7 @@ import networkx as nx
 
 
 
-dirr = "./networkx/input02.csv"
+dirr = "./input02.csv"
 edges = []
 edge_labels = {}
 workbook = open(dirr)
@@ -20,6 +20,7 @@ for i in data:
 
 G = nx.Graph()
 G.add_edges_from(edges)
+print('G is ',G)
 # pos = nx.spring_layout(G,k=5,scale=5)
 pos = nx.kamada_kawai_layout(G, scale=1000)
 print("pos................", pos)
