@@ -62,6 +62,3 @@ print("G.adj[1] is ",G.adj[1])
 # /// add edge
 nx.draw(G,with_labels=True)
 plt.show
-
-
-
