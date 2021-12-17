@@ -22,3 +22,10 @@ thisdict.update({"node3":{"sys":"aloha"}})
 print(thisdict)
 
 print (thisdict["node2"]["sys"])
+
+
+#  print dict
+print("-"*10,"print dict","-"*10)
+
+for x,y in thisdict.items():
+    print ( x ,y)

@@ -31,3 +31,12 @@ print("-"*10,"for one line","-"*10)
 xx = [x for x in range(10) if x < 5]
 print(xx)
 
+##########
+#end of for
+print("-"*10,"end of for","-"*10)
+
+for i in range(3):
+    print(i)
+else:
+    print("end of for")
+

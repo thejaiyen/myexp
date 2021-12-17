@@ -14,7 +14,8 @@ for i in a:
 # check type
 print("-"*10,"check type","-"*10)
 
-print( isinstance(a,str) )
+print( "isinstance(\"a\",str) is", isinstance("a",str) )
+print( "isinstance(a,int) is", isinstance(a,int) )
 
 ##########
 # use in IF
@@ -32,3 +33,14 @@ print("-"*10,"covert","-"*10)
 print("to str :\t", str(3) )
 print("to int :\t", int(3) )
 print("to float :\t", float(3) )
+
+
+##########
+#Iterables
+# int,float,func can't do like this
+print("-"*10,"Iterables","-"*10)
+print( iter('is') )
+print( iter(["i","s"]) )
+print( iter(("i","s")) )
+print( iter({"i","s"}) )
+print( iter({"i":1,"s":2}) )

@@ -65,3 +65,6 @@ print(f"#3 {b} say {c}")
 # \f	Form Feed
 # \ooo	Octal value
 # \xhh	Hex value
+
+##String functions
+#https://www.javatpoint.com/python-strings
